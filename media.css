@@ -1,0 +1,133 @@
+@media (max-width: 986px) {
+    .start_section001 img {
+        width: 281px;
+        height: 570px;
+    }
+    .text__p p {
+        width: 361px;
+    }
+    .text__p {
+        padding-top: 91px;
+    }
+    .header__start {
+        background-size: cover;
+        background-position: center;
+    }
+    .start__section002 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .texts_small {
+        text-align: center;
+        order: 2;
+    }
+    .start__section002 img {
+        width: 573px;
+        height: 320px;
+        order: 1;
+        margin-top: -142px;
+    }
+    .texts_small p {
+        width: 540px;
+    }
+    .start__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 270px;
+    }
+    .start__footer ul {
+        padding-top: 33px;
+    }
+    .img-footer {
+        padding-top: 65px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav img {
+        padding-left: 24px;
+    }
+    .nav ul {
+        display: none;
+    }
+    .burgers {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        padding-right: 24px;
+    }
+    .burger {
+        width: 16px;
+        height: 3px;
+        background: #333D4B;
+        border-radius: 1.5px;
+    }
+    .header__start {
+        background-size: cover;
+        background-position: center;
+        background-position: calc(975px);
+    }
+    .texts {
+        text-align: center;
+    }
+    .texts p {
+        width: 374px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    .start_section001 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text__p {
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -30px;
+    }
+    .section002 {
+        height: 675px;
+    }
+    .texts_small {
+        align-items: center;
+        text-align: center;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .texts_small h4 {
+        width: 424px;
+    }
+    .texts_small p {
+        width: 305px;
+    }
+    .start_section003 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards {
+        margin-top: 72px;
+        row-gap: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer {
+        margin-top: 50pc;
+        height: 346px;
+    }
+    .start__footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
